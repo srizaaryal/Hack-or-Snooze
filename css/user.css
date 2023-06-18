@@ -1,0 +1,22 @@
+/* Login and signup forms */
+
+.account-form button {
+  width: 4rem;
+  margin-left: 80px;
+}
+
+#signup-form button {
+  width: 8rem;
+}
+
+.account-forms-container {
+  padding-left: 20px;
+}
+
+button{
+  color: rgb(30, 30, 25);
+  font-size: medium;
+  padding: 5px;
+  background-color: rgb(219, 219, 233);
+  border-radius: 5px;
+}

@@ -1,0 +1,29 @@
+/* Navigation bar */
+
+nav {
+  display: flex;
+  background-color: #498ab6;
+  align-items: center;
+  padding: 7px 20px;
+  border-radius: 3px 3px 0 0;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  margin: 0 4px;
+  padding: 5px;
+  color: rgb(241, 221, 176);
+}
+
+.nav-right {
+  margin-left: auto;
+  text-align: right;
+}
+
+#nav-logout{
+  color: rgb(241, 221, 176); 
+}
