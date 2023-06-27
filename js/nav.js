@@ -22,7 +22,7 @@ function navLoginClick(evt) {
   hidePageComponents();
   $loginForm.show();
   $signupForm.show();
-  $storiesContainer.hide();
+  // $storiesContainer.hide();
 }
 
 $navLogin.on("click", navLoginClick);
@@ -67,5 +67,5 @@ function navFavoritesClick(evt){
   putFavoritesListOnPage();
   $favoritedStories.show();
 }
-$body.on('click', '#nav-favorites', navFavoritesClick);
+$body.on('click', '#nav-favorites', navFavoritesClick); //event deligation
 

@@ -116,7 +116,8 @@ function updateUIOnUserLogin() {
 
   updateNavOnLogin();
   generateUserProfile();
-  $storiesContainer.show()
+  $storiesContainer.show();
+  $("#sriza").show();
 }
 
 function generateUserProfile() {
